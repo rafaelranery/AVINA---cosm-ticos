@@ -1,4 +1,0 @@
-amentar e melhorar títulos de contato
-colocar img logos de empresas, div about;
-mudar cabeçalho h2;
-configurar imagem
