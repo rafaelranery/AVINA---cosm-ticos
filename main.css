@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: "Lobster";
+    src: url(fonts/Lobster/Lobster-Regular.ttf);
+}
+@font-face {
+    font-family: "Julius Sans One";
+    src: url(fonts/Julius_Sans_One/JuliusSansOne-Regular.ttf);
+}
+
+.background {
+    background: linear-gradient(to top, #ee9ca7, #ffdde1);}
+
+/*header*/
+body > header {
+    background: linear-gradient(to right, #ef3b36, #ffffff);
+    padding: 16px 0;
+    color: rgb(255, 255, 255);
+}
+header .container,
+section .container,
+#contact .container,
+#contact li,
+.socialmediaholder,
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+body{
+    font-family: "Julius Sans One";
+}
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+header li {
+    display: inline-block;
+    font-family: "Julius Sans One";
+    color: #ef3b36;
+    margin-left: 24px;
+    margin-right: 16px;
+}
+header li a, 
+header a {
+    color: inherit;
+    text-decoration: none;
+    font-weight: bold;
+}
+header li a:hover {
+    color: #ef3c369f;
+    transition-delay: 2s ease;
+}
+
+/*hn*/
+header h1 {
+    font-family: "Julius Sans One";
+    font-size: 4em;
+    font-weight: 1;
+    letter-spacing: 0.4em;
+}
+
+
+/*.conteiner*/
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+#about div {
+    padding: 24px;
+    padding-top: 16px;
+}
+#about .container div {
+    padding-top: 4px;
+}
+
+#about img {
+    border-radius: 15px 50px 30px;
+}
+
+#about h2 {
+    font-family: "Julius Sans One";
+    padding: 16px;
+    padding-top: 0px;
+    font-style: oblique;
+    font-size: 36px;
+    font-weight: 500px;
+}
+
+#about p {
+    padding-left: 16px;
+    padding-bottom: 16px;
+    font-size: 20px;
+}
+
+#about div ul {
+    padding: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo li {
+    display: inline;
+}
+
+#about .logo img {
+    height: 3em;
+    margin-left: 16px;
+}
+
+#contact .container {
+    display: block;
+
+}
+#contact h2 {
+    font-size: 36px;
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+#contact h3 {
+    font-size: 24px;
+    padding-bottom: 8px;
+}
+.contactmethods {
+    display: flex;
+    align-items:  flex-start;
+    justify-content: space-between;
+}
+.contactmethods form input, textarea {
+    outline-color: #ef3c3695;
+}
+.contactmethods form input {
+    display: block;
+    width: 320px;
+    margin: 10px;
+    padding: 8px;
+}
+.contactmethods form textarea {
+    padding: 8px;
+    width: 320px;
+    height: 200px;
+    margin-left: 8px;
+}
+.contactmethods form button {
+    display: block;
+    padding: 8px;
+    width: 320px;
+    margin-left: 8px;
+    margin-bottom: 8px;
+}
+
+#contact li {
+    display: inline;
+}
+
+.socialmediaholder img {
+    height: 4em;
+    padding: 8px;
+
+}
+
+.socialmediaholder a:hover {
+    opacity: 0.6;
+}
+
+footer {
+    background-color: #ee9ca7;
+    justify-content: end;
+}
+
